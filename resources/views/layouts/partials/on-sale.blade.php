@@ -1,5 +1,5 @@
 {{-- @dump($sproducts); --}}
-@if ($sproducts->count() > 0 && $sale->status == 1 && $sale->sale_date > Carbon\Carbon::now())
+@if ($sproducts->count() > 0 && $sale->status == 1)
 <div class="w-full px-2 mt-10">
     <div class="text-left bg-pink-600 p-2">
         <div class="w-full text-2xl">On Sale</div>

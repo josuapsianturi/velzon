@@ -1289,11 +1289,11 @@ select {
 .max-w-5xl {
   max-width: 64rem;
 }
-.max-w-2xl {
-  max-width: 42rem;
-}
 .max-w-xs {
   max-width: 20rem;
+}
+.max-w-2xl {
+  max-width: 42rem;
 }
 .max-w-6xl {
   max-width: 72rem;
@@ -1630,6 +1630,10 @@ select {
   --tw-bg-opacity: 1;
   background-color: rgb(248 113 113 / var(--tw-bg-opacity));
 }
+.bg-pink-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(219 39 119 / var(--tw-bg-opacity));
+}
 .bg-black {
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
@@ -1841,6 +1845,9 @@ select {
 }
 .uppercase {
   text-transform: uppercase;
+}
+.italic {
+  font-style: italic;
 }
 .leading-5 {
   line-height: 1.25rem;
